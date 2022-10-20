@@ -1,5 +1,6 @@
 import { Button } from './button';
 import styled from "styled-components";
+import { GlobalStyle } from './style';
 
 
 export default {
@@ -23,8 +24,7 @@ export const Buttons = () =>   (
   </Grid>
 )
 
-
-  const Grid = styled.div`
+const Grid = styled.div`
     display:grid;
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
