@@ -1,10 +1,10 @@
 import React from 'react';
-import { createGlobalStyle } from 'styled-components/macro';
+import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
 :root {
   --font: sans-serif;
-  --font-size: 18px;
+  --font-size: 16px;
 }
 
 body {

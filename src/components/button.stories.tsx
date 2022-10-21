@@ -1,6 +1,5 @@
 import { Button } from './button';
 import styled from "styled-components";
-import { GlobalStyle } from './style';
 
 
 export default {
